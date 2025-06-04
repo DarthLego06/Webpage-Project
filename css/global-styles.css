@@ -1,11 +1,11 @@
 /*Default styles for Mobile*/
 
 * {
-  font-size: 20px;
   margin: 0;
   font-family: "Roboto";
 }
 
+/*Header*/
 header {
   display: flex;
   height: 10vh;
@@ -24,8 +24,10 @@ header {
   font-family: "Roboto";
   font-weight: bold;
   flex-grow: 1;
+  font-size: 20px;
 }
 
+/*Mobile dropdown menu in header*/
 .dropdown-button {
   width: 40px;
   height: 30px;
@@ -69,8 +71,62 @@ header {
   display: block;
 }
 
+/*Banner image*/
 .banner-image {
   width: 100vw;
+}
+
+/*Global section styles*/
+.section-title {
+  text-align: center;
+  padding: 15px 15px 5px 15px;
+  text-shadow: 2px 2px 5px grey;
+}
+
+.section-button {
+  align-self: center;
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: violet;
+}
+
+.section-button:hover {
+  background-color: purple;
+}
+
+.section-button:active {
+  padding: 9px 18px;
+}
+
+/*Services Section*/
+#services {
+  background-color: lightgray;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.service-card {
+  border: 2px solid black;
+  margin: 10px 10px 0 10px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+
+.service-image {
+  width: 25%;
+  align-items: center;
+}
+
+.service-text {
+  padding: 1em;
+}
+
+.service-title {
+  text-align: center;
+  padding-bottom: 10px;
 }
 /*Tablet*/
 @media (min-width 769px) {

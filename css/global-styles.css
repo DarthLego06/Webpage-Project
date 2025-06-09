@@ -89,6 +89,7 @@ header {
 /*Banner image*/
 .banner-image {
   width: 100vw;
+  display: block;
 }
 
 /*Global section styles*/
@@ -108,18 +109,23 @@ header {
 
 .section-button {
   align-self: center;
-  margin: 1rem;
+  margin: 2rem;
   padding: 10px 20px;
   border-radius: 5px;
-  background-color: #ccad00;
+  background-color: #e6c300;
+  font-weight: bold;
+  font-size: 16px;
+  width: 60vw;
 }
 
-.section-button:hover {
-  background-color: #998200;
+/*.section-button:hover {
+  background-color: #b39800;
 }
-
+*/
 .section-button:active {
-  padding: 9px 18px;
+  transform: scale(0.9);
+  transition: all 0.1s ease-in-out;
+  background-color: #b39800;
 }
 
 /*Services Section*/

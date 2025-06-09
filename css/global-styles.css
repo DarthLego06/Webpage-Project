@@ -160,6 +160,18 @@ header {
   padding-bottom: 1rem;
 }
 
+/*Contact Section*/
+#contact {
+  background-image: url(../images/banner-placeholder.png);
+  background-size: contain;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
 /*Tablet*/
 @media (min-width 769px) {
 

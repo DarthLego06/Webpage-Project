@@ -43,13 +43,20 @@ header {
   padding: 10px 0 10px 10px;
 }
 
-.header-text {
+.logo-text {
   padding: 10px;
   font-family: "Roboto";
   font-weight: bold;
   flex-grow: 1;
   font-size: 20px;
 }
+
+.logo-subtext {
+  display: block;
+  font-size: 15px;
+  color: #B7CFDC
+}
+
 
 /*Mobile dropdown menu in header*/
 .dropdown-button {
@@ -120,14 +127,6 @@ header {
   text-shadow: 3px 3px #0000009F;
   letter-spacing: 1px;
   /*background-color: #B7CFDC3F;*/
-}
-
-/*Banner image*/
-.banner-image {
-  width: 100vw;
-  height: 50vh;
-  display: block;
-  object-fit: cover;
 }
 
 /*Global section styles*/

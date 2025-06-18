@@ -1,4 +1,10 @@
 /*Default styles for Mobile*/
+@font-face {
+  font-family: 'Oswald';
+  src:
+    local("Oswald"),
+    url(../fonts/Oswald-VariableFont_wght.ttf),
+}
 
 * {
   margin: 0;
@@ -15,6 +21,10 @@ main {
 
 .light {
   background-color: #D9E4EC;
+}
+
+.underline {
+  text-decoration: underline;
 }
 
 /*Header*/
@@ -86,10 +96,38 @@ header {
   display: block;
 }
 
+/*Banner*/
+.banner {
+  background-image: url(../images/banner-image.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-text {
+  width: 70%;
+  font-family: Oswald;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  line-height: 2em;
+  padding: 0.5em;
+  text-shadow: 3px 3px #0000009F;
+  letter-spacing: 1px;
+  /*background-color: #B7CFDC3F;*/
+}
+
 /*Banner image*/
 .banner-image {
   width: 100vw;
+  height: 50vh;
   display: block;
+  object-fit: cover;
 }
 
 /*Global section styles*/
@@ -140,6 +178,9 @@ header {
 
 .service-image {
   width: 25%;
+  height: auto;
+  padding-left: 0.5em;
+  object-fit: cover;
 }
 
 .service-text {
@@ -174,14 +215,46 @@ header {
 
 /*Contact Section*/
 #contact {
-  background-image: url(../images/banner-placeholder.png);
-  background-size: contain;
+  background-image: url(../images/contact-image.jpg);
+  background-size: cover;
+  background-position: center;
   height: 600px;
   justify-content: center;
   align-items: center;
 }
 
+.contact-title {
+  text-align: center;
+  padding: 15px 15px 0 15px;
+  text-shadow: 2px 2px 2px #fff;
+  color: #000;
+  font-size: 2rem;
+  line-height: 1.5em;
+  font-weight: bold;
+}
 
+/*Footer*/
+footer {
+  display: grid;
+  grid-template-columns: 1.25fr 1fr;
+  background-color: #0C4160;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.footer-link {
+  padding: 10px;
+}
 
 
 /*Tablet*/

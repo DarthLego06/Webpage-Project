@@ -1,0 +1,14 @@
+/*Default styles for Mobile*/
+.form-item {
+  padding: 10px;
+}
+
+/*Tablet*/
+@media (min-width 769px) {
+
+}
+
+/*Desktop*/
+@media (min-width: 1201px) {
+
+}

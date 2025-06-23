@@ -11,7 +11,7 @@
   font-family: "Roboto";
 }
 
-main {
+body {
   background-color: #D9E4EC;
 }
 
@@ -25,6 +25,10 @@ main {
 
 .underline {
   text-decoration: underline;
+}
+
+.italic {
+  font-style: italic;
 }
 
 /*Header*/
@@ -285,4 +289,48 @@ footer {
 /*Desktop*/
 @media (min-width: 1201px) {
 
+.banner-text {
+  font-size: 4em;
+}
+
+.section-title {
+  font-size: 30px;
+  padding: 20px;
+}
+
+.section-button {
+  width: 50vw;
+  padding: 15px 20px;
+}
+
+.service-image {
+  padding-left: 1.5em;
+}
+
+.service-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80vw;
+  align-self: center;
+  margin: 20px 0 20px 0;
+}
+
+.service-card {
+  margin: 20px 20px 0 20px;
+}
+
+.service-text {
+  padding: 2em;
+}
+
+.team-card-wrapper {
+  width: 60vw;
+  align-self: center;
+  background-color: #D9E4EC;
+}
+
+.team-card {
+
+}
 }

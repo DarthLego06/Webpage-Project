@@ -344,7 +344,8 @@ footer {
 }
 
 .service-card {
-  margin: 20px 20px 0 20px;
+  margin: 20px;
+  padding: 20px;
 }
 
 .service-text {
@@ -398,5 +399,24 @@ footer {
   background-color: #D9E4EC;
 }
 
+#values {
+  padding: 80px;
+}
+
+#values article {
+  display: flex;
+  padding: 40px;
+}
+
+#values img {
+  width: 20%;
+  object-fit: contain;
+  padding: 0 40px;
+}
+
+.values-section-wrapper {
+  width: 60vw;
+  align-self: center;
+}
 
 }

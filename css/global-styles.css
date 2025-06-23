@@ -174,7 +174,7 @@ header {
 /*Services Section*/
 .service-card {
   border: 2px solid black;
-  border-radius: 10px;
+  /*border-radius: 10px;*/
   margin: 20px 10px 0px 10px;
   display: flex;
   background-color: #fff;
@@ -294,7 +294,7 @@ footer {
 }
 
 .section-title {
-  font-size: 30px;
+  font-size: 35px;
   padding: 20px;
 }
 
@@ -325,12 +325,51 @@ footer {
 }
 
 .team-card-wrapper {
-  width: 60vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80vw;
   align-self: center;
-  background-color: #D9E4EC;
+}
+
+#salty {
+  grid-area: 1 / 1 ;
+}
+
+#carolina {
+  grid-area: 2 / 1 ;
+}
+
+#link {
+  grid-area: 1 / 2 ;
+}
+
+#coco {
+  grid-area: 2 / 2 ;
 }
 
 .team-card {
-
+  margin: 20px;
 }
+
+.team-text {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-description {
+  margin: auto 0;
+}
+
+.team-title {
+  padding: 0;
+  font-size: 20px;
+}
+
+.dark {
+  background-color: #D9E4EC;
+}
+
+
 }

@@ -216,6 +216,7 @@ header {
 
 .team-title {
   padding-bottom: 1rem;
+  font-size: 19px;
 }
 
 /*Contact Section*/
@@ -236,6 +237,32 @@ header {
   font-size: 2rem;
   line-height: 1.5em;
   font-weight: bold;
+}
+
+/*Values Section*/
+#values {
+  padding: 10px 10px 30px 10px;
+}
+
+#values article {
+  padding: 40px 20px 0 20px;
+}
+
+#values h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #0C4160;
+}
+
+#values img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+#values p {
+  font-size: 18px;
+  line-height: 1.3em;
 }
 
 /*Footer*/

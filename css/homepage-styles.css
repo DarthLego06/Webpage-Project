@@ -1,0 +1,240 @@
+/*Default styles for Mobile*/
+
+/*Services Section*/
+
+.service-card {
+  border: 2px solid black;
+  /*border-radius: 10px;*/
+  margin: 40px 20px 0px 20px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+}
+
+.service-image {
+  width: 25%;
+  height: auto;
+  padding-left: 0.5em;
+  object-fit: cover;
+}
+
+.service-text {
+  padding: 1em;
+}
+
+.service-title {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+/*Our team section*/
+
+#team {
+  background-color: #0C4160;
+}
+
+.team-card {
+  display: flex;
+}
+
+.team-image {
+  width: 35%;
+}
+
+.team-text {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-title {
+  padding-bottom: 1rem;
+  font-size: 19px;
+  margin: auto 0 0 0;
+}
+
+.team-description {
+  margin: 0 0 auto 0;
+  line-height: 1.2em;
+}
+
+#team .section-button {
+  background-color: #D9E4EC;
+  color: #000;
+}
+
+#team .section-button:active {
+  background-color: #bbcfdd;
+}
+
+/*Contact Section*/
+
+#contact {
+  background-image: url(../images/contact-image.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-title {
+  text-align: center;
+  padding: 15px 15px 0 15px;
+  text-shadow: 2px 2px 2px #fff;
+  color: #000;
+  font-size: 2rem;
+  line-height: 1.5em;
+  font-weight: bold;
+}
+
+/*Values Section*/
+
+#values {
+  padding: 10px 10px 30px 10px;
+}
+
+#values article {
+  padding: 40px 20px 0 20px;
+}
+
+#values h3 {
+  padding: 10px 0;
+  font-size: 20px;
+  color: #0C4160;
+}
+
+#values img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  max-height: 250px;
+  max-width: 250px;
+}
+
+#values p {
+  font-size: 18px;
+  line-height: 1.3em;
+}
+
+/*Tablet*/
+
+@media (min-width: 769px) {
+
+.team-card {
+  width: 70vw;
+  justify-self: center;
+}
+
+}
+
+/*Desktop*/
+
+@media (min-width: 1201px) {
+
+/*Services section changes*/
+
+.service-image {
+  padding-left: 1.5em;
+}
+
+.service-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80vw;
+  align-self: center;
+  margin: 40px 0;
+}
+
+.service-card {
+  margin: 20px;
+  padding: 20px;
+}
+
+.service-text {
+  padding: 2em 1em 2em 2em;
+}
+
+/*Team section changes*/
+
+.team-card-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  width: 80vw;
+  align-self: center;
+  margin-bottom: 40px;
+}
+
+#salty {
+  grid-area: 1 / 1 ;
+}
+
+#carolina {
+  grid-area: 2 / 1 ;
+}
+
+#link {
+  grid-area: 1 / 2 ;
+}
+
+#coco {
+  grid-area: 2 / 2 ;
+}
+
+.team-card {
+  margin: 20px;
+  width: auto;
+  justify-self: auto;
+}
+
+.team-text {
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+}
+
+.team-description {
+  margin: auto 0;
+}
+
+.team-title {
+  padding: 0;
+  font-size: 20px;
+}
+
+.team-card {
+  background-color: #D9E4EC;
+}
+
+/*Values section changes*/
+
+#values {
+  padding: 80px;
+}
+
+#values article {
+  display: flex;
+  padding: 40px;
+}
+
+#values img {
+  width: 20%;
+  object-fit: contain;
+  padding: 0 40px;
+}
+
+.values-section-wrapper {
+  width: 60vw;
+  align-self: center;
+}
+
+/*Contact section changes*/
+
+.contact-title {
+  font-size: 3rem;
+  text-shadow: 2px 2px 2px #808080;
+}
+
+}

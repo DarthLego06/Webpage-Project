@@ -3,29 +3,31 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is the description of my webpage.">
+    <meta name="description" content="Salty's Marketing Solutions">
     <title>My Webpage Template</title>
     <link rel="stylesheet" href="./css/global-styles.css">
+    <link rel="stylesheet" href="./css/homepage-styles.css">
   </head>
   <body>
     <header>
       <a href="./index.html">
         <img class="logo" src="./images/salty's-marketing-logo-icon.png" alt="Logo Icon">
       </a>
-      <h1 class="logo-text">Salty's Marketing <span class="logo-subtext">Solutions</span></h1>
+      <a href="./index.html" class="logo-text">Salty's Marketing <span class="logo-subtext">Solutions</span></a>
       <nav>
         <button class="dropdown-button"></button>
         <div class="dropdown-content">
-          <a class="dropdown-item-light" href="...">Services</a>
-          <a class="dropdown-item-dark" href="...">Our Team</a>
-          <a class="dropdown-item-light" href="...">About</a>
-          <a class="dropdown-item-dark" href="./contact-page/contact-page.html">Book a Consultation</a>
+          <a class="dropdown-item light" href="./404-page/404-page.html">Services</a>
+          <a class="dropdown-item dark" href="./404-page/404-page.html">Our Team</a>
+          <a class="dropdown-item light" href="./404-page/404-page.html">About</a>
+          <a class="dropdown-item dark" href="./contact-page/contact-page.html">Book a Consultation</a>
         </div>
       </nav>
     </header>
     <main>
       <section class="banner">
-        <p class="banner-text">Driving the Future of Marketing</p>
+        <!-- Is this the best place for the h1 tag? Nowhere else made sense to me.-->
+        <h1 class="banner-text">Driving the Future of Marketing</h1>
       </section>
       <section class="section-wrapper" id="services">
         <h2 class="section-title">Our Services</h2>
@@ -34,32 +36,32 @@
             <img class="service-image" src="./images/web-development-icon.png" alt="Website development icon">
             <div class="service-text">
               <h3 class="service-title">Website Development</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p>In today's digital world a proper website is absolutely essential for business success. They are an incredibly powerful tool that can drive lead-flow, sell products, and so much more. Our focus from the start was website design, and we have the skills, experience, and knowledge to create a stunning website for your business. </p>
             </div>
           </article>
           <article class="service-card">
             <img class="service-image" src="./images/copywriting-icon.png" alt="Copywriting icon">
             <div class="service-text">
               <h3 class="service-title">Copywriting</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p>Good copywriting can make or break even the best designed marketing plans. Did you know a 3 letter word change in a headline can increase or decrease the effectiveness of an ad by up to 50%? We have decades of experience and testing in copywriting and can craft the perfect copy to sell more to your customers.</p>
             </div>
           </article>
           <article class="service-card">
             <img class="service-image" src="./images/email-icon.jpg" alt="Email marketing icon">
             <div class="service-text">
               <h3 class="service-title">Email Marketing</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p>A staple way to improve customer connections, generate profit, and grow your brand. A proper email marketing strategy can greatly improve your business. We've created thousands of successful email marketing campaigns/strategies and we can create one tailored to your business too.</p>
             </div>
           </article>
           <article class="service-card">
             <img class="service-image" src="./images/smile-icon.jpg" alt="Smiley face icon">
             <div class="service-text">
               <h3 class="service-title">Belly Rubs</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p>Felling down? Lonely? A little worse for wear? Well, we have got you covered. With all of our services we offer complimentary belly rubs and petting sessions to help rejuvinate your body, mind, and soul.<br><span class="italic">(Can also be booked independently.)</span></p>
             </div>
           </article>
         </div>
-        <button class="section-button">Explore Our Services</button>
+        <a href="./404-page/404-page.html" class="section-button">Explore Our Services</a>
       </section>
       <section class="section-wrapper" id="team">
         <h2 class="section-title">Our Expert Team</h2>
@@ -68,13 +70,13 @@
             <img class="team-image" src="./images/salty-smiling.jpg" alt="Salty the CEO">
             <div class="team-text">
               <h3 class="team-title">Salty - CEO</h3>
-              <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p class="team-description">Salty has worked in the industry ever since she was a little pioneering pup. With her inate talent for marketing, she's helped thousands of successful business build their brands. Her expertise is well know of today. </p>
             </div>
           </article>
           <article class="team-card light" id="carolina">
             <div class="team-text">
               <h3 class="team-title">Carolina - Lead Designer</h3>
-              <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p class="team-description">Following in Salty's footsteps, Carolina learned the family trade of marketing. She took a liking to design, letting her incredible creativity shine through. Her vast design experience and know-how have stunned veteran designers for years. </p>
             </div>
             <img class="team-image" src="./images/carolina-in-hoodie.jpg" alt="Carolina the Lead Designer">
           </article>
@@ -82,18 +84,18 @@
             <img class="team-image" src="./images/link-lego-bag.jpg" alt="Link the Lead Developer">
             <div class="team-text">
               <h3 class="team-title">Link - Lead Developer</h3>
-              <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p class="team-description">Salty's best friend, Link, is a wizard behind the scenes. He brings Salty's visions to life with his expert techinical skills in coding, analytics, IT, hair balls, and much, much more. He always stays on top of the cutting edge technology, so you get the best solutions.</p>
             </div>
           </article>
           <article class="team-card light" id="coco">
             <div class="team-text">
               <h3 class="team-title">Coco - Developer</h3>
-              <p class="team-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis</p>
+              <p class="team-description">Coco is a devoted, up-and-coming developer. His dedication to learning, problem solving, and eating food has seen him to great heights. He now learns from the best (Link) and is next in line to take his mantle as one of the world's finest developers. </p>
             </div>
             <img class="team-image" src="./images/coco-in-grass.jpg" alt="Coco the Assistant Developer">
           </article>
         </div>
-        <button class="section-button">Meet Our Team</button>
+        <a href="./404-page/404-page.html" class="section-button">Meet Our Team</a>
       </section>
       <section class="section-wrapper" id="values">
         <div class="values-section-wrapper">
@@ -121,9 +123,8 @@
         </div>
       </section>
       <section class="section-wrapper" id="contact">
-        <!-- <img src="./images/banner-placeholder.png" alt="placeholder"> -->
         <h2 class="contact-title">Book a <span class="underline">Free</span> Consultation Today</h2>
-        <button class="section-button">Get in Touch</button>
+        <a href="./contact-page/contact-page.html" class="section-button">Get in Touch</a>
       </section>
     </main>
     <footer>
@@ -132,15 +133,17 @@
           <img class="logo" src="./images/salty's-marketing-logo-icon.png" alt="Logo icon">
           <p class="logo-text small-font">Salty's Marketing <span class="logo-subtext small-font">Solutions</span></p>
         </div>
-        <p class="footer-nav-text">Find us at:</p>
-        <address class="footer-nav-address">8765 Golden Lane, Woofington, Colorado</address>
-        <p class="footer-nav-text">Email:</p>
-        <address class="footer-nav-address">info@SaltysMarketing.com</address>
+        <div class="footer-nav-wrapper">
+          <p class="footer-nav-text">Find us at:</p>
+          <address class="footer-nav-address">8765 Golden Lane, Woofington, Colorado</address>
+          <p class="footer-nav-text">Email:</p>
+          <address class="footer-nav-address">info@SaltysMarketing.com</address>
+        </div>
       </div>
       <div class="footer-right">
         <a class="footer-link" href="./contact-page/contact-page.html">Contact Us</a>
-        <a class="footer-link" href="...">Terms and Conditions</a>
-        <a class="footer-link" href="...">Privacy Policy</a>
+        <a class="footer-link" href="./404-page/404-page.html">Terms and Conditions</a>
+        <a class="footer-link" href="./404-page/404-page.html">Privacy Policy</a>
       </div>
     </footer>
   </body>

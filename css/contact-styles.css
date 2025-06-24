@@ -5,7 +5,7 @@
   padding: 10px;
   font-size: 18px;
   font-weight: bold;
-  width: 75vw;
+  width: 75%;
 }
 
 .form-label {
@@ -49,11 +49,11 @@
   font-size: 15px;
 }
 
-#contact-details-bottom {
+.section-title {
   margin-bottom: 20px;
 }
 
-#contact-details-top {
+footer {
   margin-top: 20px;
 }
 
@@ -64,5 +64,42 @@
 
 /*Desktop*/
 @media (min-width: 1201px) {
+
+.form-wrapper {
+  display: grid;
+  grid-template-columns: 60vw 40vw;
+}
+
+.contact-text {
+  padding-top: 20px;
+}
+
+.contact-form {
+  padding: 50px;
+}
+
+.form-input {
+  height: 2.25em;
+  margin-top: 5px;
+}
+
+.form-item textarea {
+  height: 12em;
+}
+
+.form-item {
+  width:;
+}
+
+#contact-details-section h2 {
+  background-color: #B7CFDC;
+}
+
+#contact-details-section {
+  margin: 0 100px;
+  background-color: #B7CFDC;
+  height: 75%;
+  align-self: center;
+}
 
 }

@@ -90,6 +90,9 @@
 
 /*Values Section*/
 
+/*I used a different method for my CSS selectors here. Instead of creating new classes for everything I needed to style only in 1 area, I combined the */
+/*parent ID with the specific elements. Is this a better way to do it than creating new classes or no?*/
+
 #values {
   padding: 10px 10px 30px 10px;
 }

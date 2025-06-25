@@ -161,6 +161,7 @@ header {
   width: 60vw;
   cursor: pointer;
   color: #fff;
+  text-decoration: none;
 }
 
 .section-button:hover {
@@ -232,6 +233,7 @@ footer {
 @media (min-width: 1201px) {
 
 /*Navigation menu changes*/
+
 .dropdown-button {
   display: none;
 }

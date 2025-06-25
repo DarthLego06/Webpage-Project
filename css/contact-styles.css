@@ -1,5 +1,6 @@
-/*Default styles for Mobile*/
-/*Add cursor pointer to all link styles*/
+/*Default styles for Mobile and tablet*/
+
+/*Form section*/
 
 .form-item {
   padding: 10px;
@@ -37,15 +38,22 @@
   transition: all 0.1s ease-in-out;
 }
 
+/*Contact Details section*/
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+}
+
 .contact-text {
   padding: 10px 10px 0 10px;
   font-weight: bold;
-  margin: 0 10% 0 10%;
+  margin: 0 auto;
 }
 
 .contact-address {
   padding: 2px 10px 10px 10px;
-  margin: 0 10% 0 10%;
+  margin: 0 auto;
   font-size: 15px;
 }
 
@@ -57,25 +65,15 @@ footer {
   margin-top: 20px;
 }
 
-/*Tablet*/
-@media (min-width 769px) {
-
-}
-
 /*Desktop*/
+
 @media (min-width: 1201px) {
+
+/*Form changes*/
 
 .form-wrapper {
   display: grid;
   grid-template-columns: 60vw 40vw;
-}
-
-.contact-text {
-  padding-top: 20px;
-}
-
-.contact-form {
-  padding: 50px;
 }
 
 .form-input {
@@ -89,6 +87,16 @@ footer {
 
 .form-item {
   width:;
+}
+
+/*Contact Details section changes*/
+
+.contact-text {
+  padding-top: 20px;
+}
+
+.contact-form {
+  padding: 50px;
 }
 
 #contact-details-section h2 {

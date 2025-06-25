@@ -1,5 +1,7 @@
 /*Default styles for Mobile*/
 
+/*The only section changed by this code is the tiny main section on the 404-page.html file*/
+
 main {
   display: flex;
   align-items: center;
@@ -27,7 +29,7 @@ main p {
 
 
 
-/*Tablet*/
+/*Tablet and desktop*/
 @media (min-width: 769px) {
 
 main img {
@@ -51,31 +53,5 @@ main p {
   font-size: 1.75em;
 }
 
-}
-
-/*Desktop*/
-@media (min-width: 1201px) {
-
-/*main img {
-  width: 40%;
-  margin: 5em 0;
-}
-
-main {
-  flex-direction: row;
-  justify-content: center;
-}
-
-h1 {
-  text-align: left;
-  font-size: 4em;
-}
-
-main p {
-  text-align: left;
-  padding: 10px;
-  font-size: 1.75em;
-}
-*/
 }
 
